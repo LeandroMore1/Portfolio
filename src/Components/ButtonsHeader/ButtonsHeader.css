@@ -1,0 +1,36 @@
+.boton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #EB400A;
+    background: #EB400A;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    margin: 20px 0px 10px 0px;
+    text-decoration: none;
+  }
+  .boton:hover {
+    background: #E7193D;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .contBtn{
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  
+
+  @media (min-width: 768px){
+    .boton{
+        margin: 20px 40px 30px 0px
+    }
+  } 
+

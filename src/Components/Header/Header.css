@@ -1,0 +1,33 @@
+.titulosDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.layer1{
+    background-image: url("../waves/olaSmart.svg");
+}
+
+.spacer{
+    aspect-ratio: 675/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (min-width: 768px){
+    .titulosDiv{
+        margin-top: 90px;
+       
+    }
+
+    .spacer{
+        aspect-ratio: 900/180;
+    }
+
+    .layer1{
+        background-image: url("../waves/olaHeader.svg");
+    }
+
+  } 
