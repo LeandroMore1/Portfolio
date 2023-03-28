@@ -5,7 +5,7 @@ export const Habilidades = () => {
     return (
         <>
             <div className="spacer layer2"></div>
-            <div className="container d-flex flex-column  align-items-md-start">
+            <div className="container d-flex flex-column align-items-md-start">
                 <h1 id="habilidades" className="d-flex align-self-md-start titulo">Habilidades</h1>
                 <div className=" d-flex flex-column flex-md-row justify-content-md-around contenedor">
                     <div className="d-flex flex-column align-items-center cont1">

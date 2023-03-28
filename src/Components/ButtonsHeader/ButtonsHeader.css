@@ -24,13 +24,17 @@
 
   .contBtn{
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: 60px;
   }
   
 
   @media (min-width: 768px){
     .boton{
         margin: 20px 40px 30px 0px
+    }
+
+    .contBtn{
+      margin-bottom: -10px;
     }
   } 
 
