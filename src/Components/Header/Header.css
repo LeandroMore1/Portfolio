@@ -4,7 +4,7 @@
 }
 
 .layer1{
-    background-image: url("../waves/olaSmart.svg");
+    background-image: url("../waves/olaHeader.svg");
 }
 
 .spacer{
@@ -24,10 +24,6 @@
 
     .spacer{
         aspect-ratio: 900/180;
-    }
-
-    .layer1{
-        background-image: url("../waves/olaHeader.svg");
     }
 
   } 
