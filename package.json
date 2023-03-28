@@ -1,5 +1,5 @@
 {
-  "homepage": "//https:{leandromore1}.github.io/{Portfolio}",
+  "homepage": "https://leandromore1.github.io/Portfolio/",
   "name": "portfolio-manu",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,10 +43,8 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.1.0",
-    "gh-pages": "^5.0.0"
+    "gh": "^2.8.9",
+    "gh-pages": "^5.0.0",
+    "pages": "^0.0.16"
   }
-  
-    
-
-  
 }
