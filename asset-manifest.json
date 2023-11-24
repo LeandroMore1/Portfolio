@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7b0b67d0.css",
-    "main.js": "/Portfolio/static/js/main.925617c2.js",
-    "static/media/github.png": "/Portfolio/static/media/github.987334e9f782cc505f25.png",
-    "static/media/olaHeader.svg": "/Portfolio/static/media/olaHeader.8806d2a375ce1741b55e.svg",
-    "static/media/olaHabilidades2.svg": "/Portfolio/static/media/olaHabilidades2.4f2402ba8126c48b3cb0.svg",
-    "static/media/olaHabilidades.svg": "/Portfolio/static/media/olaHabilidades.da93ec35632466ee0b92.svg",
+    "main.css": "/Portfolio/static/css/main.7880aa27.css",
+    "main.js": "/Portfolio/static/js/main.660c274e.js",
+    "static/media/ola-header.svg": "/Portfolio/static/media/ola-header.08344c552d54dfecd316.svg",
+    "static/media/ola-invertida.svg": "/Portfolio/static/media/ola-invertida.0f13e1ef1e3530fb918b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.7b0b67d0.css.map": "/Portfolio/static/css/main.7b0b67d0.css.map",
-    "main.925617c2.js.map": "/Portfolio/static/js/main.925617c2.js.map"
+    "main.7880aa27.css.map": "/Portfolio/static/css/main.7880aa27.css.map",
+    "main.660c274e.js.map": "/Portfolio/static/js/main.660c274e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0b67d0.css",
-    "static/js/main.925617c2.js"
+    "static/css/main.7880aa27.css",
+    "static/js/main.660c274e.js"
   ]
 }
