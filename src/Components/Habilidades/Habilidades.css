@@ -1,51 +1,91 @@
 .layer2{
-    background-image: url("../waves/olaHabilidades.svg");
+    background-image: url("../docs/ola-invertida.svg");
+    max-width: 100vw;
+    height: 30vh;
+    width: 100%;
+    background-size: cover ; 
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.layer3{
-    background-image: url("../waves/olaHeader.svg");
+.habilidades{
+    background-color: #181E2E;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-250 -90 1500 900'%3E%3Cpolygon fill='%23fba19a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23733e6a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23f58a89' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23693a6a' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ee7a80' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23593662' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e56d7b' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234a3259' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23da6177' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%233d2e50' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ce5774' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23312a48' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-bottom:groove;
 }
 
-.logo{
-    height: 45px;
-    margin: 40px 20px 40px
+.habilidades-inferior{
+    margin-bottom: 60px;
 }
+
+
+.herramientas{
+    text-align: center;
+}
+
+
+
+.subtitle-habilidades{
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+}
+
+
+.logo {
+    height: 25px;
+    margin: 0px 10px 30px 10px;
+}
+
+.logo2{  
+    margin: 0px 10px 30px 10px;
+    height: 25px;
+}
+
 
 .titulo{
-    margin-top: -10px;
+    margin-top: 10px;
+
 }
 
-
-.subtitulo{
-    margin-top: 40px;
-}
 
 @media (min-width: 768px){
 
 
     .logo{
-        height: 35px;   
-        margin: 0px 40px 30px 0px
+        height: 50px;   
+        margin: 0px 40px 45px 0px;
+    }
 
+    .logo2{
+        height: 50px;   
+        margin: 0px 20px 45px 20px;
+    }
+
+    .subtitle-habilidades{
+        margin: 40px 0px 45px 0px;
+        text-align: start;
+    }
+
+    .herramientas{
+        text-align: center;
+        margin-top: -5px;
     }
 
     .titulo{
-        padding-top: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
-    .subtitulo{
-       margin: 70px 0px 50px
+    .layer3{
+        height: 37vh;
     }
 
-    .cont2{
-        width: 300px;
+    .habilidades-inferior{
+        margin-bottom:160px;
     }
-
-    .contenedor{
-        width: 100%;
-    }
-
-
     
 }
 

@@ -3,27 +3,31 @@
     margin-bottom: 20px;
 }
 
+/* .header{
+    background: rgb(34,34,51);
+    background: linear-gradient(90deg, rgba(34,34,51,1) 30%, rgba(50,43,73,1) 100%);
+} */
+
+.header{
+    background: rgb(0,18,32);
+    background: linear-gradient(0deg, rgba(0,18,32,1) 0%, rgba(49,42,72,1) 100%);
+}
+
 .layer1{
-    background-image: url("../waves/olaHeader.svg");
-}
-
-.spacer{
-    aspect-ratio: 675/300;
+    background-image: url("../docs/ola-header.svg");
+    max-width: 100vw;
     width: 100%;
+    height: 100vh;
+    background-size: cover ; 
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
 }
-
 
 @media (min-width: 768px){
     .titulosDiv{
         margin-top: 90px;
+        margin-bottom: 30px;
        
-    }
-
-    .spacer{
-        aspect-ratio: 900/180;
     }
 
   } 

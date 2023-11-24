@@ -1,3 +1,11 @@
-.layer4{
-    background-image: url("../waves/olaHabilidades2.svg");
+#proyectos-title{
+    padding-top:75px;
+}
+
+#proyectos{
+    height: 100vh;
+}
+
+.proyectos-container{
+    margin-top: 30px;
 }

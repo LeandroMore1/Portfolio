@@ -1,19 +1,17 @@
-.App{
-  background-color: #1E1E1E;
-}
 
-body{
-  background-color: #1E1E1E;
-}
 
-h1,h2{
+
+h1{
   font-family: 'Roboto Flex';
-  color:white
+  color:white;
+
 }
 
 h2{
-  color: #FF0D0D;
+  font-family: 'Roboto Flex';
+  color: #FA7268;
   font-size: 25px;
+  
 }
 
 
