@@ -7,9 +7,9 @@ export const Proyectos = () => {
 
     useEffect(() => {
         DOTS({
-            el: '#proyectos',
+            el: '#dots',
             mouseControls: true,
-            touchControls: true,
+            touchControls: false,
             gyroControls: true,
             minHeight: 200.00,
             minWidth: 200.00,
@@ -25,30 +25,71 @@ export const Proyectos = () => {
 
     return (
         <>
-            <div id="proyectos">
-                <div className="container">
-                    <h1 id="proyectos-title">Proyectos</h1>
-                    <div className="d-flex flex-wrap proyectos-container">
-                        <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
-                            <h2>e-commerce Full Stack</h2>
-                            <a href="http://35.171.60.146/products"><img src="" alt="" /></a>
-                        </div>
-                        <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
-                            <h2>e-commerce React</h2>
-                            <a href=""><img src="" alt="" /></a>
-                        </div>
-                        <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
-                            <h2>Front End automotriz</h2>
-                            <a href=""><img src="" alt="" /></a>
-                        </div>
-                        <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
-                            <h2>Front End automotriz</h2>
-                            <a href=""><img src="" alt="" /></a>
+
+            <div className="proyectos-section">
+                <div id="dots">
+                    <div className="container">
+                        <h1 className="proyectos-title">Proyectos</h1>
+                        <div className="d-flex flex-wrap proyectos-container justify-content-center">
+
+                            <div className="col-md-6 col-12  d-flex flex-column justify-content-center align-items-center">
+                                <h2 className="proyecto-nombre">e-commerce Full Stack</h2>
+                                <div className="d-flex justify-content-center align-items-center cont-proyecto">
+                                    <div className="overlay d-flex justify-content-center align-items-center">
+                                        <a className="boton boton-proyecto" href="sdad">Abrir</a>
+                                        <a className="boton boton-proyecto" href="dsads">Ver repo</a>
+                                    </div>
+                                    <img src={require('../docs/backend.png')} className="img" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-12  d-flex flex-column justify-content-center align-items-center">
+                                <h2 className="proyecto-nombre">e-commerce React</h2>
+                                <div className="d-flex justify-content-center align-items-center cont-proyecto">
+                                    <div className="overlay d-flex justify-content-center align-items-center">
+                                        <a className="boton boton-proyecto" href="sdad">Abrir</a>
+                                        <a className="boton boton-proyecto" href="dsads">Ver repo</a>
+                                    </div>
+                                    <img src={require('../docs/z-store.png')} className="img" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-12  d-flex flex-column justify-content-center align-items-center">
+                                <h2 className="proyecto-nombre">Front End servicio mecánico</h2>
+                                <div className="d-flex justify-content-center align-items-center cont-proyecto">
+                                    <div className="overlay d-flex justify-content-center align-items-center">
+                                        <a className="boton boton-proyecto" href="sdad">Abrir</a>
+                                        <a className="boton boton-proyecto" href="dsads">Ver repo</a>
+                                    </div>
+                                    <img src={require('../docs/merida.png')} className="img" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-12  d-flex flex-column justify-content-center align-items-center">
+                                <h2 className="proyecto-nombre">Front End Automotriz</h2>
+                                <div className="d-flex justify-content-center align-items-center cont-proyecto">
+                                    <div className="overlay d-flex justify-content-center align-items-center">
+                                        <a className="boton boton-proyecto" href="sdad">Abrir</a>
+                                        <a className="boton boton-proyecto" href="dsads">Ver repo</a>
+                                    </div>
+                                    <img src={require('../docs/gestoria.png')} className="img" alt="" />
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-12  d-flex flex-column justify-content-center align-items-center">
+                                <h2 className="proyecto-nombre">Front End Museo</h2>
+                                <div className="d-flex justify-content-center align-items-center cont-proyecto">
+                                    <div className="overlay d-flex justify-content-center align-items-center">
+                                        <a className="boton boton-proyecto" href="sdad">Abrir</a>
+                                        <a className="boton boton-proyecto" href="dsads">Ver repo</a>
+                                    </div>
+                                    <img src={require('../docs/museo.png')} className="img" alt="" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
