@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7880aa27.css",
-    "main.js": "/Portfolio/static/js/main.660c274e.js",
+    "main.css": "/Portfolio/static/css/main.5cf0d30f.css",
+    "main.js": "/Portfolio/static/js/main.c4bdcd5c.js",
+    "static/media/museo.png": "/Portfolio/static/media/museo.e1d57eed7dfc5f2488e8.png",
+    "static/media/z-store.png": "/Portfolio/static/media/z-store.b7d3a07216d432efd27f.png",
+    "static/media/gestoria.png": "/Portfolio/static/media/gestoria.15d791a8a588b8d7e417.png",
+    "static/media/merida.png": "/Portfolio/static/media/merida.9c664870b850b436fed4.png",
+    "static/media/backend.png": "/Portfolio/static/media/backend.53de57ad3929ab618af7.png",
     "static/media/ola-header.svg": "/Portfolio/static/media/ola-header.08344c552d54dfecd316.svg",
     "static/media/ola-invertida.svg": "/Portfolio/static/media/ola-invertida.0f13e1ef1e3530fb918b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.7880aa27.css.map": "/Portfolio/static/css/main.7880aa27.css.map",
-    "main.660c274e.js.map": "/Portfolio/static/js/main.660c274e.js.map"
+    "main.5cf0d30f.css.map": "/Portfolio/static/css/main.5cf0d30f.css.map",
+    "main.c4bdcd5c.js.map": "/Portfolio/static/js/main.c4bdcd5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7880aa27.css",
-    "static/js/main.660c274e.js"
+    "static/css/main.5cf0d30f.css",
+    "static/js/main.c4bdcd5c.js"
   ]
 }
