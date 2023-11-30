@@ -9,7 +9,7 @@ export const Header = () => {
             <div className="spacer layer1">
                 <NavBar />
                 <div className="titulosDiv container cont d-flex flex-column align-items-center align-items-md-start">
-                    <h1 className="">Leandro Manuel More,</h1>
+                    <h1 className="">Leandro Manuel More</h1>
                     <h2 className="">Desarrollador Full Stack</h2>
                 </div>
                 <ButtonsHeader />
