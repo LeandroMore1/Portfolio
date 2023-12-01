@@ -1,0 +1,33 @@
+.about-section{
+    background: rgb(24,30,46);
+    background: linear-gradient(180deg, rgba(24,30,46,1) 0%, rgba(49,42,72,1) 100%);
+    background-image: url("../docs/blob7.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#about{
+    padding-top: 60px;
+}
+
+@media (min-width: 576px){
+
+    .about-section{
+        background-image: url("../docs/blob5.svg");
+   
+    }
+    
+}
+
+@media (min-width: 576px){
+
+    .about-section{
+        background-image: url("../docs/blob5.svg");
+   
+    }
+    
+}
