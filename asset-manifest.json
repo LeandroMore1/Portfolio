@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a4098ecf.css",
-    "main.js": "/Portfolio/static/js/main.27f4c376.js",
+    "main.css": "/Portfolio/static/css/main.7c961c3b.css",
+    "main.js": "/Portfolio/static/js/main.54862127.js",
     "static/media/museo.png": "/Portfolio/static/media/museo.e1d57eed7dfc5f2488e8.png",
     "static/media/z-store.png": "/Portfolio/static/media/z-store.b7d3a07216d432efd27f.png",
     "static/media/gestoria.png": "/Portfolio/static/media/gestoria.15d791a8a588b8d7e417.png",
@@ -9,12 +9,14 @@
     "static/media/backend.png": "/Portfolio/static/media/backend.53de57ad3929ab618af7.png",
     "static/media/ola-header.svg": "/Portfolio/static/media/ola-header.08344c552d54dfecd316.svg",
     "static/media/ola-invertida.svg": "/Portfolio/static/media/ola-invertida.0f13e1ef1e3530fb918b.svg",
+    "static/media/blob5.svg": "/Portfolio/static/media/blob5.48961584293a1aced38a.svg",
+    "static/media/blob7.svg": "/Portfolio/static/media/blob7.78ae202ae34f1d128660.svg",
     "index.html": "/Portfolio/index.html",
-    "main.a4098ecf.css.map": "/Portfolio/static/css/main.a4098ecf.css.map",
-    "main.27f4c376.js.map": "/Portfolio/static/js/main.27f4c376.js.map"
+    "main.7c961c3b.css.map": "/Portfolio/static/css/main.7c961c3b.css.map",
+    "main.54862127.js.map": "/Portfolio/static/js/main.54862127.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4098ecf.css",
-    "static/js/main.27f4c376.js"
+    "static/css/main.7c961c3b.css",
+    "static/js/main.54862127.js"
   ]
 }
