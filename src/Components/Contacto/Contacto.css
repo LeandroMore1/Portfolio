@@ -1,0 +1,43 @@
+.contact-section{
+    background-color: #FA7268;
+    height: 80vh;
+}
+
+#contact-title{
+    color: #2C2C4F;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.icono-contacto{
+    font-size:50px;
+    margin-top: 25px;
+    
+}
+
+.contact-cols p{
+    color: #2C2C4F;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+
+.contact-cols a{
+    text-decoration: none;
+}
+
+.lastCol a{
+    margin: 0px 12.5px 0px 12.5px
+}
+
+
+
+#second-num{
+    margin-top: -10px;
+}
+
+@media (min-width: 576px){
+    .contact-section{
+        height: 50vh;
+    }
+}

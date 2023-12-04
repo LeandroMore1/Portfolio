@@ -2,6 +2,7 @@ import { Header } from './Components/Header/Header';
 import { Habilidades } from './Components/Habilidades/Habilidades';
 import { Proyectos } from './Components/Proyectos/Proyectos';
 import { About } from './Components/About/About';
+import { Contacto } from './Components/Contacto/Contacto';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Habilidades/>
         <Proyectos/>
         <About/>
+        <Contacto/>
     </div>
   );
 }
