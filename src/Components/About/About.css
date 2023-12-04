@@ -14,7 +14,7 @@
 }
 
 #about-title{
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -46,6 +46,8 @@
 }
 
 @media (min-width: 576px){
+
+    
 
     #about-title{
         padding-top: 60px;
