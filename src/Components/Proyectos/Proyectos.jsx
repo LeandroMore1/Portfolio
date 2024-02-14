@@ -36,7 +36,7 @@ export const Proyectos = () => {
                                 <h2 className="proyecto-nombre">e-commerce Full Stack</h2>
                                 <div className="d-flex justify-content-center align-items-center cont-proyecto">
                                     <div className="overlay d-flex justify-content-center align-items-center">
-                                        <a className="boton boton-proyecto" href="http://35.171.60.146/products">Abrir</a>
+                                        <a className="boton boton-proyecto" href="http://44.219.28.110:4040/products">Abrir</a>
                                         <a className="boton boton-proyecto" target="_blank" rel="noreferrer" href="https://github.com/LeandroMore1/entregable-final-backend">Ver repo</a>
                                     </div>
                                     <img src={require('../docs/backend.png')} className="img" alt="" />
